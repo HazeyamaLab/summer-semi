@@ -143,7 +143,7 @@ docker container rm -f static-site
 docker run --name static-site -d -p 8888:80 dockersamples/static-site
 ```
 
-このようにして起動するとhttp://localhost:8888/でアクセスすることができます．  
+このようにして起動すると http://localhost:8888/ でアクセスすることができます．  
 またDockerコンテナの状態をより詳細に知りたければ`docker container inspect`コマンドを利用します．  
 
 ```bash
